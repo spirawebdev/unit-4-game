@@ -1,0 +1,73 @@
+body {
+    font-family: helvetica, sans-serif;
+    margin: 0 25%;
+    background-color: #d1cdb7;
+    background-size: 0.3rem 0.3rem;
+    background-image: linear-gradient(to right, #ccc8b1 1px, rgba(204,200,177,0) 1px), linear-gradient(to bottom, #ccc8b1 1px, rgba(204,200,177,0) 1px);
+}
+
+h1 {
+    text-align: center;
+    font-weight: lighter;
+    border: solid #454138;
+    border-width: 0.1rem 0;
+    padding: 0.1rem 1rem;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+    
+
+
+
+h3 {
+    align-content: center;
+    text-align: center;
+    margin-top: 5%;
+}
+
+h4 {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    background-color: #454138;
+    color: #bab5a1;
+}
+
+p {
+    background-color: #dcd8c0;
+    padding: 3%;
+}
+
+.Buttons  {
+    display: inline;
+    box-shadow: darkgrey solid 3px;
+}
+
+#redButton {
+    display: inline-block;
+    text-shadow: darkgrey;
+    box-shadow: darkorchid;
+}
+
+#blueButton {
+    display: inline-block;
+}
+
+#greenButton {
+    display: inline-block;
+}
+#yellowButton {
+    display: inline-block;
+}
+
+#score h2 {
+    font-weight: lighter;
+    border: solid #454138;
+    background-color: #dcd8c0;
+    padding-left: 0.5rem;
+}
