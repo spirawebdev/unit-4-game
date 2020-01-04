@@ -1,6 +1,7 @@
 var wins = 0;
 var losses = 0;
 var totalWins = 0;
+var playerCount = 0
 
 
 
@@ -18,7 +19,11 @@ console.log(winningNumber);
 
 // Create a .onclick function that adds a number to the player score for each button.
 
-
+$("#redButton").on("click", function() {
+    playerCount++;
+    alert("The counter after the red button was pushed is " + playerCount);
+    console.log(playerCount);
+});
 
 
 
