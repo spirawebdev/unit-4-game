@@ -43,26 +43,47 @@ p {
     padding: 3%;
 }
 
-.Buttons  {
-    display: inline;
-    box-shadow: darkgrey solid 3px;
+#padfix {
+    
+    display: inline-block;
+}
+.Buttons img button  {
+    position: center;
+    width: 25;
+    padding: 25%;
+    
+    
 }
 
 #redButton {
     display: inline-block;
-    text-shadow: darkgrey;
-    box-shadow: darkorchid;
+    position: center;
+    margin: 0%;
+    padding: 0%;
+    
+    
 }
 
 #blueButton {
     display: inline-block;
+    position: center;
+    margin: 0%;
+    padding: 0%;
 }
 
 #greenButton {
     display: inline-block;
+    position: center;
+    margin: 0%;
+    padding: 0%;
 }
 #yellowButton {
     display: inline-block;
+    position: center;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+    
 }
 
 #score h2 {
