@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>Document</title>
-    <script src="jquery-3.4.1.min.js"></script>
     <script src="assets/game.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/style.css">
     <link rel="stylesheet" type="text/css" href="assets/reset.css">
+    
 </head>
 <body>
     
@@ -25,24 +26,24 @@
     </div>
 
     <div id="winNumber">
-        <h3 id="winNumb">Your Number is: 64</h3>
+        <h3 id="winNumb">---</h3>
     </div>
 
-    <div class="Buttons">
-        <div id="redButton">
-            <img src="redcrystal.png" width="300" height="300">
+    
+        <div>
+            <button id="redButton"><img src="redcrystal.png" class="img-responsive icons" id="red"></button>
         </div>
         <div id="blueButton">
-            <img src="assets/bluecrystal.png" width="300" height="300">
+            <button id="blueButton"><img src="assets/bluecrystal.png" class="img-responsive icons" id="blue"></button>
         </div>
         <div id="greenButton">
-            <img src="assets/greencrystal.png" width="300" height="300">
+            <button id="greenButton"><img src="assets/greencrystal.png" class="img-responsive icons" id="green"></button>
         </div>
         <div id="yellowButton">
-            <img src="assets/yellowcrystal.png" width="300" height="300">
+            <button id="yellowButton"><img src="assets/yellowcrystal.png" class="img-responsive icons" id="yellow"></button>
         </div>
 
-    </div>
+    
 
 
 
@@ -50,12 +51,12 @@
 
     <div id="score">
         <h4>Program Score</h4>
-        <div id="wins">
-            <h2>Wins:</h2> 
+        <div>
+            <h2 id="wins">Wins:</h2> 
         </div>
 
-        <div id="losses">
-           <h2>Loses:</h2> 
+        <div>
+           <h2 id="losses">Loses:</h2> 
         </div>
     </div>
 
